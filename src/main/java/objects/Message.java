@@ -12,22 +12,22 @@ import java.sql.Date;
  * @author patrickeddy
  */
 public class Message {
-    private int messageId;
+    private int messageid;
 
-    public int getMessageId() {
-        return messageId;
+    public int getMessageid() {
+        return messageid;
     }
 
-    public void setMessageId(int messageId) {
-        this.messageId = messageId;
+    public void setMessageId(int messageid) {
+        this.messageid = messageid;
     }
 
-    public int getUserId() {
-        return userId;
+    public int getUserid() {
+        return userid;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUserid(int userId) {
+        this.userid = userId;
     }
 
     public String getMessage() {
@@ -45,7 +45,7 @@ public class Message {
     public void setDateadded(Date dateadded) {
         this.dateadded = dateadded;
     }
-    private int userId;
+    private int userid;
     private String message;
     private Date dateadded;
     

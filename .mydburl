@@ -1,4 +1,1 @@
-Connection info string:
-   "dbname=dajokgs6r0mvv3 host=ec2-107-20-230-243.compute-1.amazonaws.com port=5432 user=dvpyjmxrfgsfmy password=1d3b67d9fa695ade5928236b38d53abd73d9f16db3555fce234c7172dcb953f4 sslmode=require"
-Connection URL:
-   postgres://dvpyjmxrfgsfmy:1d3b67d9fa695ade5928236b38d53abd73d9f16db3555fce234c7172dcb953f4@ec2-107-20-230-243.compute-1.amazonaws.com:5432/dajokgs6r0mvv3
+jdbc:postgresql://ec2-107-20-230-243.compute-1.amazonaws.com:5432/dajokgs6r0mvv3?user=dvpyjmxrfgsfmy&password=1d3b67d9fa695ade5928236b38d53abd73d9f16db3555fce234c7172dcb953f4&sslmode=require
